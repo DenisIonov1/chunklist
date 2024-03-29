@@ -1,0 +1,65 @@
+﻿  main.cpp
+D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(611,19): warning C4244: инициализация: преобразование "ChunkList<int,9,Allocator<T>>::difference_type" в "int", возможна потеря данных
+D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(611,19): warning C4244:         with
+D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(611,19): warning C4244:         [
+D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(611,19): warning C4244:             T=int
+D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(611,19): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(611,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\3-semester-software-development-technology-main\ChunkList\ChunkList\main.cpp(8,6):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "ChunkList<int,9,Allocator<T>>"
+          with
+          [
+              T=int
+          ]
+  	D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(610,12):
+  	во время компиляции функции-члена класс шаблон "int &ChunkList<int,9,Allocator<T>>::operator [](ChunkList<T,9,Allocator<T>>::difference_type)"
+          with
+          [
+              T=int
+          ]
+  
+D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(575,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(575,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(571,12):
+  	во время компиляции функции-члена класс шаблон "int &ChunkList<int,9,Allocator<T>>::at(ChunkList<T,9,Allocator<T>>::size_type)"
+          with
+          [
+              T=int
+          ]
+  		D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(685,3):
+  		см. первую ссылку на "ChunkList<int,9,Allocator<T>>::at" в "ChunkList<int,9,Allocator<T>>::begin"
+          with
+          [
+              T=int
+          ]
+  		D:\3-semester-software-development-technology-main\ChunkList\ChunkList\main.cpp(9,16):
+  		см. первую ссылку на "ChunkList<int,9,Allocator<T>>::begin" в "print"
+          with
+          [
+              T=int
+          ]
+  
+D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(593,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(593,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(592,18):
+  	во время компиляции функции-члена класс шаблон "const int &ChunkList<int,9,Allocator<T>>::at(ChunkList<T,9,Allocator<T>>::size_type) const"
+          with
+          [
+              T=int
+          ]
+  		D:\3-semester-software-development-technology-main\ChunkList\ChunkList\ChunkList.h(1074,4):
+  		см. первую ссылку на "ChunkList<int,9,Allocator<T>>::at" в "operator =="
+          with
+          [
+              T=int
+          ]
+  		D:\3-semester-software-development-technology-main\ChunkList\ChunkList\main.cpp(30,11):
+  		см. первую ссылку на "operator ==" в "main"
+  
+  ChunkList.vcxproj -> D:\3-semester-software-development-technology-main\ChunkList\x64\Debug\ChunkList.exe
